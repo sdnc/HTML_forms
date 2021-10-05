@@ -1,0 +1,44 @@
+<head>
+
+</head>
+<body>
+    <form action="https://formsubmit.co/dza.sara@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Reservation for The Giant Bean Café">
+        <label for="name">Full name:</label><br>
+        <input type="text" id="name" name="name" placeholder="John Doe" required><br>
+        <label for="email">Email address:</label><br>
+        <input type="email" id="email" name="email" placeholder="your@email.com"><br>
+        <label for="phone">Phone number:</label><br>
+        <input type="number" id="number" name="number" placeholder="0412 345 678" maxlength=10 minlength=9 required><br>
+        <label for="guests"># of guests:</label><br>
+        <input type="number" id="guests" name="guests" required><br>
+        <label for="datetime">Date & Time:</label><br>
+        <input type="datetime-local" id="datetime" name="datetime" required><br>
+        <label for="request">Special Requests:</label><br>
+        <input type="text" id="requests" name="requests" style="padding:1em;" size=60><br>
+        <input type="submit" value="Submit" id="submitbutton">
+    </form>
+</body>
+
+<style>
+    form 
+    {
+        margin: auto;
+        text-align: center;
+    }
+
+    input 
+    {
+        padding-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    #submitbutton 
+    {
+        color: white;
+        background-color: #1e3932;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        border-radius: 10px;
+    }
+</style>
